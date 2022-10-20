@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int num,div,flag = 0;
+    int num,div = 0,flag = 0;
     
     cout << "Enter the Number to check Prime : ";
     cin >> num;
@@ -21,6 +21,6 @@ int main()
     }
     
     if(flag == 0)
-        cout << num << " is Prime."
+        cout << num << " is Prime.";
     return 0;
 }
